@@ -156,7 +156,7 @@ Navbar
   background: transparent;
   border: transparent;
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-white);
   cursor: pointer;
   transition: var(--transition);
 }
