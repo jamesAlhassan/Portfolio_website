@@ -14,6 +14,7 @@ Variables
 :root {
   /* dark shades of primary color*/
   --clr-bg: rgb(17 24 39);
+  --clr-gold: rgb(255, 215, 0);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
   --ff-primary: "Lato", sans-serif;
@@ -174,8 +175,7 @@ Navbar
 }
 
 .nav-link:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  color: var(--clr-gold);
   padding-left: 2.25rem;
 }
 .nav-links {
