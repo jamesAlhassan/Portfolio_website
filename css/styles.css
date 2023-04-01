@@ -135,7 +135,6 @@ Navbar
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: var(--dark-shadow);
   z-index: 2;
 }
 .nav-icons {
@@ -144,7 +143,7 @@ Navbar
 .nav-center {
   width: 100%;
   max-width: 1170px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .nav-header {
   display: flex;
@@ -162,6 +161,7 @@ Navbar
 }
 .nav-toggle:hover {
   transform: scale(1.2);
+  color: var(--clr-gold);
 }
 .nav-link {
   display: block;
@@ -201,6 +201,6 @@ Navbar
     display: flex;
   }
   .nav-header {
-    padding: 0 0;
+    /* padding: 0 0; */
   }
 }
