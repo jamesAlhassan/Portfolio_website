@@ -51,11 +51,6 @@ a {
   text-decoration: none;
 }
 
-img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-}
-
 h1,
 h2,
 h3,
@@ -202,5 +197,44 @@ Navbar
   }
   .nav-header {
     /* padding: 0 0; */
+  }
+}
+/*
+=============== 
+About
+===============
+*/
+.about-center {
+  margin: 5rem;
+}
+.about-img,
+.about-info {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about-img,
+  .about-info {
+    flex: 0 0 calc(50% - 2rem);
+    margin-bottom: 0;
+    align-self: center;
+  }
+  .about-info p {
+    color: var(--clr-white);
+    max-width: 35rem;
+  }
+}
+.about-photo {
+  width: 30%;
+  display: block;
+}
+@media screen and (min-width: 1170px) {
+  .about-img {
+    position: relative;
   }
 }
