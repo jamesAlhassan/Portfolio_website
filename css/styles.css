@@ -195,27 +195,30 @@ Navbar
     height: auto;
     display: flex;
   }
-  .nav-header {
-    /* padding: 0 0; */
-  }
 }
 /*
 =============== 
 About
 ===============
 */
+
 .about-center {
-  margin: 5rem;
+  padding: 5rem;
+  margin-left: 5rem;
 }
-.about-img,
-.about-info {
-  margin-bottom: 2rem;
+.about-info p {
+  max-width: 25rem;
+  color: var(--clr-white);
 }
 @media screen and (min-width: 992px) {
   .about-center {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10rem;
+  }
+  .about-info {
+    padding-right: 2rem;
   }
 
   .about-img,
@@ -223,18 +226,5 @@ About
     flex: 0 0 calc(50% - 2rem);
     margin-bottom: 0;
     align-self: center;
-  }
-  .about-info p {
-    color: var(--clr-white);
-    max-width: 35rem;
-  }
-}
-.about-photo {
-  width: 30%;
-  display: block;
-}
-@media screen and (min-width: 1170px) {
-  .about-img {
-    position: relative;
   }
 }
