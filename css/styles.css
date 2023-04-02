@@ -105,22 +105,22 @@ p {
 /*  global classes */
 
 .btn {
-  text-transform: uppercase;
+  text-transform: capitalize;
   background: var(--clr-primary-5);
-  color: var(--clr-white);
+  color: var(--clr-indigo);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   /* font-weight: 700; */
   transition: var(--transition);
   font-size: 0.875rem;
-  border: 2px solid transparent;
+  border: 2px solid var(--clr-white);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 .btn:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  color: var(--clr-white);
+  background: transparent;
 }
 
 /*
