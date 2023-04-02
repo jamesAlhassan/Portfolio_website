@@ -12,3 +12,10 @@ window.addEventListener("load", function () {
     preloader.classList.add("hide-preloader");
   }, 3000);
 });
+
+const bg = document.querySelector(".bg");
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    bg.classList.remove("bg");
+  }, 10000);
+});
