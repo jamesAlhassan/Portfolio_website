@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&family=Montserrat:wght@900&display=swap");
 
 /*
 =============== 
@@ -17,12 +17,15 @@ Variables
   --clr-gold: rgb(255, 215, 0);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --ff-primary: "Lato", sans-serif;
+  --ff-primary: "Catamaran", sans-serif;
+  --ff-primary-option: "Montserrat", sans-serif;
+  --ff-secondary: "Grand Hotel", cursive;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --spacing: 0.25rem;
 }
 /*
 =============== 
@@ -140,12 +143,7 @@ Navbar
   max-width: 1170px;
   /* margin: 0 auto; */
 }
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
+
 .nav-toggle {
   background: transparent;
   border: transparent;
@@ -194,6 +192,7 @@ Navbar
   .nav-links {
     height: auto;
     display: flex;
+    justify-content: flex-end;
   }
 }
 /*
@@ -209,6 +208,8 @@ About
 .about-info p {
   max-width: 25rem;
   color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  font-family: var(--ff-primary);
 }
 @media screen and (min-width: 992px) {
   .about-center {
